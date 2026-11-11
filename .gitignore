@@ -1,0 +1,12 @@
+# Your Wi-Fi/OTA/API secrets
+firmware/secrets.h
+# Your stock flash backup (contains the device token and Wi-Fi password)
+backup/
+# Build output
+build/
+*.o
+*.elf
+*.map
+__pycache__/
+*.log
+.DS_Store
